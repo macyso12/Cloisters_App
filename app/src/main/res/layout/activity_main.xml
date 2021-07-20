@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/floor_1_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8e9c78"
+    android:contentDescription="@string/change_gallery"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/FirstFloorMap"
+        android:layout_width="415dp"
+        android:layout_height="715dp"
+        android:contentDescription="@string/first_floor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gui2" />
+
+    <Button
+        android:id="@+id/GroundFloorBtn"
+        android:layout_width="25dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="124dp"
+        android:background="#00FFFFFF"
+        android:onClick="launchGroundFloor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ground_1"
+        android:layout_width="243dp"
+        android:layout_height="113dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="125dp"
+        android:background="#00FFFFFF"
+        android:onClick="launchGroundFloor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/gorund_2"
+        android:layout_width="42dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginBottom="185dp"
+        android:background="#00FFFFFF"
+        android:onClick="launchGroundFloor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ground_3"
+        android:layout_width="25dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="210dp"
+        android:background="#0AFFFFFF"
+        android:onClick="launchGroundFloor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/NameOfGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/avenir"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="@string/_1st_floor"
+        android:textColor="@color/galleryColor"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LateGothicHallBtn"
+        android:layout_width="54dp"
+        android:layout_height="107dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="345dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/NumOfPodcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="@font/avenir"
+        android:textColor="@color/textwhite"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/FuentidueñaChapelBtn"
+        android:layout_width="44dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="145dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SaintGuilhemCloisterBtn"
+        android:layout_width="76dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="222dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/RomanesqueHallBtn"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="145dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LangonChapelBtn"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="320dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/PontautChapterHouseBtn"
+        android:layout_width="43dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="370dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/EarlyGothicHallBtn"
+        android:layout_width="43dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="440dp"
+        android:background="#02FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/CuxaCloisterBtn"
+        android:layout_width="89dp"
+        android:layout_height="103dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="322dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/NineHeroesTapestriesRoomBtn"
+        android:layout_width="53dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginBottom="255dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/UnicornTapestriesRoomBtn"
+        android:layout_width="86dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="255dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="24dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="260dp"
+        android:contentDescription="@string/active"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/activegallery" />
+
+    <Button
+        android:id="@+id/BoppardRoomBtn"
+        android:layout_width="50dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="236dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/MerodeRoomBtn"
+        android:layout_width="43dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="305dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/AboutThisAppBtn"
+        android:layout_width="37dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="35dp"
+        android:background="#00FFFFFF"
+        android:onClick="ShowPopUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Default"
+        android:layout_width="49dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="102dp"
+        android:contentDescription="@string/magnify_glass"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/zoominactive" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="24dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="390dp"
+        android:contentDescription="@string/active"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/activegallery" />
+
+    <Button
+        android:id="@+id/Main_Hall"
+        android:layout_width="46dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="80dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/main_hall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Met_Store"
+        android:layout_width="62dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="70dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/the_met_store"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Change_Gallery"
+        android:layout_width="45dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="15dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/change_gallery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

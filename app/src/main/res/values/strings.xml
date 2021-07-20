@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Cloisters App</string>
+    <string name="top_info_bar">Top_Info_Bar</string>
+    <string name="floor_map_1">floor map 1</string>
+    <string name="top_info_bar_2">top info bar 2</string>
+    <string name="ground_floor">ground floor</string>
+    <string name="first_floor">1st Floor</string>
+    <string name="ground_floor_">Ground Floor</string>
+    <string name="_5">5</string>
+    <string name="zoom_in_gallery">Zoom in Gallery</string>
+    <string name="magnify_glass">Magnify Glass</string>
+    <string name="Late_Gothic_Hall">Late Gothic Hall</string>
+    <string name="Saint_Guilhem_Cloister">Saint-Guilhem Cloister</string>
+    <string name="Langon_Chapel">Langon Chapel</string>
+    <string name="Fuentidueña_Chapel">Fuentidueña Chapel</string>
+    <string name="Pontaut_Chapter_House">Pontaut Chapter House</string>
+    <string name="Romanesque_Hall">Romanesque Hall</string>
+    <string name="EarlyGothic_Hall">Early Gothic Hall</string>
+    <string name="Cuxa_Cloister">Cuxa Cloister</string>
+    <string name="Nine_Heroes_Tapestries_Room">Nine Heroes Tapestries Room</string>
+    <string name="Unicorn_Tapestries_Room">Unicorn Tapestries Room</string>
+    <string name="Boppard_Room">Boppard Room</string>
+    <string name="Merode_Room">Merode Room</string>
+    <string name="Main_Hall">Main Hall</string>
+
+    <string name="Saint_Christopher">Saint Christopher Carrying Christ (Jeremy Beresford and Morgan Cockrell) </string>
+    <string name="Saint_Micheal"> Saint Michael (Kass D Aniello, Greg McGuinness, Molly Schwarz) ... </string>
+    <string name="Saint_Andrew"> Retable with the Life of Saint Andrew (Ryan Gleason, Sophia Mazurowski, Sophia Spyropoulos) ... </string>
+    <string name="Unicorn_Article"> The Unicorn Defends Himself (Shaina Klein and Carlos Romero)...</string>
+    <string name="Glass_Sorgheloos"> Sorgheloos in Poverty (Owen Roche and Lexi Spera) ...  </string>
+    <string name="Rround_Node_Devotional"> Private Devotional Shrine to Saint Anne (Lulu Schmieta, Ethan Shea, Sami Umani)... </string>
+
+
+    <string name="Treasury">Treasury</string>
+    <string name="Glass_Gallery">Glass Gallery</string>
+    <string name="Gothic_Chapel">Gothic Chapel</string>
+    <string name="Bonnefont_Clositer">“Bonnefont” Clositer</string>
+    <string name="Trie_Clostier">Trie Clostier</string>
+    <string name="pop_up_screen">Pop Up Screen</string>
+    <string name="about_this_app">About This App</string>
+    <string name="active">active</string>
+    <string name="number_of_podcast">Number Of Podcast</string>
+    <string name="_1st_floor">1st Floor</string>
+    <string name="ground_floor_text">Ground Floor</string>
+    <string name="main_hall">Main Hall</string>
+    <string name="the_met_store">The Met Store</string>
+    <string name="late_gothic_hall_zoom">Late Gothic Hall Zoom</string>
+    <string name="podcast_inactive">Podcast Inactive</string>
+    <string name="late_gothic_hall">Late Gothic Hall</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="change_gallery">Change Gallery</string>
+    <string name="fuentiduena_chapel">Fuentiduena Chapel</string>
+
+</resources>
