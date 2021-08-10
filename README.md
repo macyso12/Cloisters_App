@@ -1,5 +1,5 @@
 # Cloister_App
-This is a research fellowship program that I have been doing with my current univesity - Fordham Unviersity. to create a android app. 
+This is a research fellowship program that I have been doing with my previous univesity - Fordham Unviersity. to create a android app. 
 
 ## 06/14/2021 - 06/18/2021
 - Started on creating wireframe of the app : We know that we want to make this app through Android IDE development for creating a Android application
