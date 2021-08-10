@@ -9,11 +9,12 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class LateGothicHall extends AppCompatActivity implements LateGothicHallArticle {
+public class LateGothicHall extends AppCompatActivity {
 
     ImageView Podcast;
     TextView GalleryName;
     Boolean Selected = false;
+    Button ChangeMedia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,7 @@ public class LateGothicHall extends AppCompatActivity implements LateGothicHallA
 
         Podcast = findViewById(R.id.Podcast);
         GalleryName = findViewById(R.id.GalleryName);
+        ChangeMedia = findViewById(R.id.ChangeMedia);
 
         Button SaintChristopherBtn = (Button) findViewById(R.id.Christopher);
         Button SaintMichealBtn = (Button) findViewById(R.id.Micheal);
@@ -36,6 +38,14 @@ public class LateGothicHall extends AppCompatActivity implements LateGothicHallA
         Podcast.setImageResource(R.drawable.podcastactive);
         GalleryName.setText(R.string.Saint_Christopher);
         Selected = !Selected;
+
+        // Changing Gallery, adding new activity [active when button is clicked]
+        ChangeMedia.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            public void onClick(View v) {
+                startActivity(new Intent(LateGothicHall.this, ChristopherMedia.class));
+            }
+        });
     }
 
     public void SaintMicheal (View v){

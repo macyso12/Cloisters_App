@@ -1,5 +1,6 @@
 package com.pinkhippo.cloistersapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -31,8 +32,8 @@ public class Carousell extends AppCompatActivity {
 
         List<SliderItem> sliderItems = new ArrayList<>();
         // add in more photos here
-        sliderItems.add(new SliderItem(R.drawable.devotionalshrine_2020_));
-        sliderItems.add(new SliderItem(R.drawable.devotionalshrine_2020_));
+        sliderItems.add(new SliderItem(R.drawable.devotionalshrine_2020));
+        sliderItems.add(new SliderItem(R.drawable.devotionalshrine_2020));
 
         viewPager2.setAdapter(new SliderAdapter(sliderItems, viewPager2));
 
@@ -81,5 +82,10 @@ public class Carousell extends AppCompatActivity {
     protected void onResume(){
         super.onResume();
         sliderHandler.postDelayed(slideRunnable, 3000);
+    }
+
+    public void backtoView (View v) {
+        Intent i = new Intent(this,TheGlassGallery.class );
+        startActivity(i);
     }
 }

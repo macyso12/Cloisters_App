@@ -50,5 +50,13 @@
     <string name="zoom_out">Zoom Out</string>
     <string name="change_gallery">Change Gallery</string>
     <string name="fuentiduena_chapel">Fuentiduena Chapel</string>
+    <string name="change_media">Change_media</string>
 
+    <string name="background">background</string>
+    <string name="startingtime">Startingtime</string>
+    <string name="remainingtime">Remainingtime</string>
+    <string name="volumnup">volumnup</string>
+    <string name="volumedown">volumedown</string>
+    <string name="_1_49">-1:49</string>
+    <string name="_0_11">0:00</string>
 </resources>

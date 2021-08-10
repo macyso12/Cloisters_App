@@ -68,6 +68,17 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
+        android:id="@+id/Christopher"
+        android:layout_width="26dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="592dp"
+        android:backgroundTint="@color/btn_background_color"
+        android:onClick="Window1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/carousel"
         android:layout_width="55dp"
         android:layout_height="51dp"

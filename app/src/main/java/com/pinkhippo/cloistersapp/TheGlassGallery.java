@@ -34,6 +34,14 @@ public class TheGlassGallery extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void Window1 (View v){
+        /*Podcast.setImageResource(R.drawable.podcastactive);
+        GalleryName.setText(R.string.Rround_Node_Devotional);
+        Selected = !Selected;*/
+        Intent i = new Intent(this,Window6.class );
+        startActivity(i);
+    }
+
     // Zoom out function, going back to main floor [main activity]
     public void launchFirstFloor (View v) {
         Intent i = new Intent(this,GroundFloorActivity.class );

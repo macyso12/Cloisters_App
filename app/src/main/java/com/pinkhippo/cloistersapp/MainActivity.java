@@ -1,14 +1,14 @@
 package com.pinkhippo.cloistersapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.view.View.OnClickListener;
+
+import androidx.appcompat.app.AppCompatActivity;
 // Need to import from XLM error
 
 public class MainActivity extends AppCompatActivity implements OnClickListener {
@@ -189,6 +189,15 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                     NameOfGallery.setText(getString(R.string.Cuxa_Cloister));
                     NumOfGallery.setText("");
                     Glass.setImageResource(R.drawable.zoomactiveempty);
+
+                    // Changing Gallery, adding new activity [active when button is clicked]
+                    ChangeGallery.setOnClickListener(new View.OnClickListener() {
+                        //@Override
+                        public void onClick(View v) {
+                            startActivity(new Intent(MainActivity.this, CuxaCloister.class));
+                        }
+                    });
+
                     break;
                 case R.id.BoppardRoomBtn:
                     NameOfGallery.setText(getString(R.string.Boppard_Room));
