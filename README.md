@@ -65,3 +65,17 @@ This is a research fellowship program that I have been doing with my current uni
 - Media player w/ play head and time stamp
     - [Java ( Android Studio ) Tutorial - Music Player ](https://www.youtube.com/watch?v=zCYQBIcePaw)
 
+## 26/07/2021 - 30/07/2021
+- Initial testing of the code for media player → the code works, what’s left to do is to plug the code into each activity for each podcast. 
+    - [Java (Android Studio) Tutorial – The Simple Music Player ](https://codingwithsara.com/java-android-studio-tutorial-simple-music-player/#activity_mainxml)
+
+## 09/08/2021 - 13/08/2021
+- Started on implementing mp3 into the app 
+- Fixing some placement issues in the glass gallery and the carousel 
+- Researching about dynamic sizing and how to publish / mini closure for the app to publish on Google Play as an Application 
+- Updated Project to Git 
+    - [How to update android project on github | Tech Projects](https://www.youtube.com/watch?v=1RpW5DPzALg)
+- Researching about the last step on how to publish app on Google Play Store
+    - [How to Publish an Android App to Google Play 2021 | New Play Console](https://www.youtube.com/watch?v=5GHT4QtotE4)
+
+
