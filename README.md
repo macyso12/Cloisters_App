@@ -79,3 +79,6 @@ This is a research fellowship program that I have been doing with my previous un
     - [How to Publish an Android App to Google Play 2021 | New Play Console](https://www.youtube.com/watch?v=5GHT4QtotE4)
 
 
+## Things to do for next iteration :
+- Highlighted PNG for the first floor and ground floor activity (when the users click on the area, the PNG should show up, which indicated that it is highlighted → increase usability of the app) 
+- Making the carousel an overlay instead of a new activity (one of them is the glass gallery, more will be updated in the future) 
