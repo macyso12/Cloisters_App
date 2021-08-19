@@ -77,6 +77,11 @@ This is a research fellowship program that I have been doing with my previous un
     - [How to update android project on github | Tech Projects](https://www.youtube.com/watch?v=1RpW5DPzALg)
 - Researching about the last step on how to publish app on Google Play Store
     - [How to Publish an Android App to Google Play 2021 | New Play Console](https://www.youtube.com/watch?v=5GHT4QtotE4)
+    - [How to publish your Andoid App on Play Store 2020 | Publish app on Play Store | Android Tutorials](https://www.youtube.com/watch?v=ieWtCaWkzYQ)
+- This last step can only be done when you have the file on your computer instead of a developer’s, because you might want to change it or modify it, and if you store it and make it in a developer’s computer. Then you will have to keep asking them to update it. 
+Solution : ask the developer to upload to Github, and then download Android studio on your own computer and then finish the last step on your own so it will be stored in your own computer and you will be able to modify or change things. 
+- Generate APK 
+
 
 
 ## Things to do for next iteration :
