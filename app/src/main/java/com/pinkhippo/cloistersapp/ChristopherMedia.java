@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ChristopherMedia extends AppCompatActivity {
+public class  ChristopherMedia extends AppCompatActivity {
 
     Button playBtn;
     SeekBar positionBar, volumeBar;
@@ -29,7 +29,7 @@ public class ChristopherMedia extends AppCompatActivity {
         remainingTimeLabel = findViewById(R.id.remainingTimeLabel);
 
         // Media Player
-        mp = MediaPlayer.create(this, R.raw.stchristopher20);
+        mp = MediaPlayer.create(this, R.raw.stchristopher);
         mp.setLooping(true);
         mp.seekTo(0);
         mp.setVolume(0.5f, 0.5f);
@@ -76,6 +76,7 @@ public class ChristopherMedia extends AppCompatActivity {
 
         TextView tv=(TextView)findViewById(R.id.GalleryName);
         tv.setSelected(true);
+
     }
 
     private Handler handler = new Handler(new Handler.Callback() {

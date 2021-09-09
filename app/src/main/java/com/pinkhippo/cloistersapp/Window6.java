@@ -37,6 +37,14 @@ public class Window6 extends AppCompatActivity {
         Podcast.setImageResource(R.drawable.podcastactive);
         GalleryName.setText(R.string.Glass_Sorgheloos);
         Selected = !Selected;
+
+        // Changing Gallery, adding new activity [active when button is clicked]
+        ChangeMedia.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            public void onClick(View v) {
+                startActivity(new Intent(Window6.this, Sorgheloos.class));
+            }
+        });
     }
 
     // Zoom out function, going back to main floor [main activity]

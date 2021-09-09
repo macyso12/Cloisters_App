@@ -19,6 +19,8 @@
         app:srcCompat="@drawable/gallery10carousel" />
 
 
+
+
     <ImageView
         android:id="@+id/Podcast"
         android:layout_width="52dp"
@@ -32,18 +34,33 @@
 
     <TextView
         android:id="@+id/GalleryName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginTop="124dp"
         android:layout_marginEnd="80dp"
         android:fontFamily="@font/avenir"
-        android:text="@string/Glass_Gallery"
+        android:text="@string/private_devotional_shrine_to_saint_anne_lulu_schmieta_ethan_shea_sami_umani"
         android:textColor="@color/galleryColor"
         android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="294dp"
+        android:layout_height="634dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="60dp"
+        android:contentDescription="@string/devotionalshrine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/devotionalshrine_2020" />
+
+    <!--<Button
         android:id="@+id/back"
         android:layout_width="52dp"
         android:layout_height="44dp"
@@ -52,15 +69,29 @@
         android:backgroundTint="#00FFFFFF"
         android:onClick="backtoView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <Button
+        android:id="@+id/Devotional"
+        android:layout_width="292dp"
+        android:layout_height="316dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="Devotional"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPagerImageSlider"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingStart="80dp"
-        android:paddingEnd="80dp">
-
-    </androidx.viewpager2.widget.ViewPager2>
+    <Button
+        android:id="@+id/ChangeMedia"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="16dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/change_media"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

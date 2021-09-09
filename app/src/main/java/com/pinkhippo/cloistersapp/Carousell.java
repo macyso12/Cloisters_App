@@ -2,40 +2,48 @@ package com.pinkhippo.cloistersapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.viewpager2.widget.CompositePageTransformer;
-import androidx.viewpager2.widget.MarginPageTransformer;
-import androidx.viewpager2.widget.ViewPager2;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Carousell extends AppCompatActivity {
 
-    private ViewPager2 viewPager2;
-    private Handler sliderHandler = new Handler();
+    //private ViewPager2 viewPager2;
+    //private Handler sliderHandler = new Handler();
+
+    ImageView Podcast;
+    TextView GalleryName;
+    Boolean Selected = false;
+    Button ChangeMedia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carousell);
 
-        viewPager2 = findViewById(R.id.viewPagerImageSlider);
+        Podcast = findViewById(R.id.Podcast);
+        GalleryName = findViewById(R.id.GalleryName);
+        ChangeMedia = findViewById(R.id.ChangeMedia);
+
+        Button DevotoinalBtn = (Button) findViewById(R.id.Devotional);
+
+        TextView tv = (TextView) findViewById(R.id.GalleryName);
+        tv.setSelected(true);
+
+        //viewPager2 = findViewById(R.id.viewPagerImageSlider);
 
         //here, i'm preparing list of images from drawable
         // You can get it from API as well
 
-        List<SliderItem> sliderItems = new ArrayList<>();
+        //List<SliderItem> sliderItems = new ArrayList<>();
         // add in more photos here
-        sliderItems.add(new SliderItem(R.drawable.devotionalshrine_2020));
-        sliderItems.add(new SliderItem(R.drawable.devotionalshrine_2020));
+        //sliderItems.add(new SliderItem(R.drawable.devotionalshrine_2020));
+        //sliderItems.add(new SliderItem(R.drawable.devotionalshrine_2020));
 
-        viewPager2.setAdapter(new SliderAdapter(sliderItems, viewPager2));
+        /*viewPager2.setAdapter(new SliderAdapter(sliderItems, viewPager2));
 
         viewPager2.setClipToPadding(false);
         viewPager2.setClipChildren(false);
@@ -82,10 +90,24 @@ public class Carousell extends AppCompatActivity {
     protected void onResume(){
         super.onResume();
         sliderHandler.postDelayed(slideRunnable, 3000);
+    }*/
     }
 
+    public void Devotional (View v){
+        Podcast.setImageResource(R.drawable.podcastactive);
+        GalleryName.setText(R.string.Saint_Christopher);
+        Selected = !Selected;
+
+        // Changing Gallery, adding new activity [active when button is clicked]
+        ChangeMedia.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            public void onClick(View v) {
+                startActivity(new Intent(Carousell.this, Devotional.class));
+            }
+        });
+    }
+/*
     public void backtoView (View v) {
         Intent i = new Intent(this,TheGlassGallery.class );
-        startActivity(i);
+        startActivity(i);*/
     }
-}

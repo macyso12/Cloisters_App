@@ -14,6 +14,7 @@ public class UnicornTapestriesRoom extends AppCompatActivity {
     ImageView Podcast;
     TextView GalleryName;
     Boolean Selected = false;
+    Button ChangeMedia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,7 @@ public class UnicornTapestriesRoom extends AppCompatActivity {
 
         Podcast = findViewById(R.id.Podcast);
         GalleryName = findViewById(R.id.GalleryName);
+        ChangeMedia = findViewById(R.id.ChangeMedia);
 
         Button UnicornBtn = (Button) findViewById(R.id.unicorn_defend);
 
@@ -31,8 +33,16 @@ public class UnicornTapestriesRoom extends AppCompatActivity {
 
     public void UnicornDefend (View v){
         Podcast.setImageResource(R.drawable.podcastactive);
-        GalleryName.setText(R.string.Unicorn_Article);
+        GalleryName.setText(R.string.Unicorn_Tapestries_Room);
         Selected = !Selected;
+
+        // Changing Gallery, adding new activity [active when button is clicked]
+        ChangeMedia.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            public void onClick(View v) {
+                startActivity(new Intent(UnicornTapestriesRoom.this, UnicornMedia.class));
+            }
+        });
     }
 
     // Zoom out function, going back to main floor [main activity]

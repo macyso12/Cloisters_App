@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CloistersApp">
-        <activity android:name=".Window6"></activity>
+        <activity android:name=".Devotional"></activity>
+        <activity android:name=".Sorgheloos" />
+        <activity android:name=".UnicornMedia" />
+        <activity android:name=".AndrewMedia" />
+        <activity android:name=".MichealMedia" />
+        <activity android:name=".Window6" />
         <activity android:name=".CuxaCloister" />
         <activity android:name=".ChristopherMedia" />
         <activity android:name=".Carousell" />

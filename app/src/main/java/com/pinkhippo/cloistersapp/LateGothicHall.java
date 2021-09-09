@@ -52,12 +52,26 @@ public class LateGothicHall extends AppCompatActivity {
         Podcast.setImageResource(R.drawable.podcastactive);
         GalleryName.setText(R.string.Saint_Micheal);
         Selected = !Selected;
+
+        ChangeMedia.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            public void onClick(View v) {
+                startActivity(new Intent(LateGothicHall.this, MichealMedia.class));
+            }
+        });
     }
 
     public void SaintAndrew (View v){
         Podcast.setImageResource(R.drawable.podcastactive);
         GalleryName.setText(R.string.Saint_Andrew);
         Selected = !Selected;
+
+        ChangeMedia.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            public void onClick(View v) {
+                startActivity(new Intent(LateGothicHall.this, AndrewMedia.class));
+            }
+        });
     }
 
     // Zoom out function, going back to main floor [main activity]
